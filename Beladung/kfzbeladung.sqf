@@ -2,7 +2,7 @@
 KFZ Beladungsscripte Überarbeitet (nichts geändert nur hinzugefügt und Angepasst)
 
 Version 3
-23.07.2018
+02.09.2018
 
 Warum S4_Fnc?
 Sollten in Zukunft ähnliche Funktionen eventuell erstellt werden, kommt es nicht zu Verwirrungen und Wir sind halt eins :D
@@ -33,7 +33,7 @@ S4_fnc_kfzbeladung_entladen = {
 
 S4_fnc_kfzbeladung_Standart = {
   systemChat "Standartbeladung";
-    Vehicle Player addweaponcargoglobal ['BWA3_Pzf3_Loaded',2];
+    Vehicle Player addweaponcargoglobal ['BWA3_PzF3_Tandem_Loaded',2];
     If (vest player in S4_Westen ) then {
     Vehicle Player addBackpackCargoGlobal ["BWA3_Kitbag_Tropen_Medic", 2];
       {
@@ -65,7 +65,7 @@ S4_fnc_kfzbeladung_Standart = {
     Vehicle player addmagazinecargoglobal ['BWA3_200Rnd_556x45',8]; //MG4
     Vehicle player addmagazinecargoglobal ['BWA3_30Rnd_556x45_G36_AP',30];// G36, G38
     Vehicle player addmagazinecargoglobal ['BWA3_10Rnd_762x51_G28_AP',10]; //G28
-    //vehicle player addmagazinecargoglobal ['hlc_5rnd_300WM_mk248_AWM',10]; // G 22
+    vehicle player addmagazinecargoglobal ['hlc_5rnd_300WM_mk248_AWM',10]; // G 22
     Vehicle player addItemCargoGlobal ["Medikit", 1];
     Vehicle player addItemCargoGlobal ["Toolkit", 1];
     Vehicle player addItemCargoGlobal ["ACE_wirecutter", 1];
@@ -106,12 +106,12 @@ S4_fnc_kfzbeladung_schweregruppe = {
     vehicle player addbackpackcargoglobal ['B_AT_01_weapon_F',2];
   	vehicle player addbackpackcargoglobal ['B_HMG_01_support_F',1];
   	vehicle player addbackpackcargoglobal ['B_HMG_01_support_high_F',1];
-    vehicle player addweaponcargoglobal ['BWA3_Pzf3_Loaded',2];
+    vehicle player addweaponcargoglobal ['BWA3_PzF3_Tandem_Loaded',2];
     Vehicle player addmagazinecargoglobal ['hlc_100Rnd_762x51_M_MG3',8]; //MG3
     Vehicle player addmagazinecargoglobal ['BWA3_200Rnd_556x45',8]; //MG4
     Vehicle player addmagazinecargoglobal ['BWA3_30Rnd_556x45_G36_AP',30];// G36, G38
     Vehicle player addmagazinecargoglobal ['BWA3_10Rnd_762x51_G28_AP',10]; //G28
-    //Vehicle Player addmagazinecargoglobal ['hlc_5rnd_300WM_mk248_AWM',10]; // G 22
+    Vehicle Player addmagazinecargoglobal ['hlc_5rnd_300WM_mk248_AWM',10]; // G 22
     Vehicle player addBackpackCargoGlobal ["Redd_Milan_Static_Bag", 1];
     Vehicle player addBackpackCargoGlobal ["Redd_Milan_Static_Tripod", 1];
     Vehicle Player addItemCargoGlobal ["Medikit", 1];
@@ -153,12 +153,12 @@ S4_fnc_kfzbeladung_moerser = {
   };
     Vehicle player addbackpackcargoglobal ['B_Mortar_01_support_F',2];
     Vehicle player addbackpackcargoglobal ['B_Mortar_01_weapon_F',2];
-    Vehicle player addweaponcargoglobal ['BWA3_Pzf3_Loaded',2];
+    Vehicle player addweaponcargoglobal ['BWA3_PzF3_Tandem_Loaded',2];
     Vehicle player addmagazinecargoglobal ['hlc_100Rnd_762x51_M_MG3',8]; //MG3
     Vehicle player addmagazinecargoglobal ['BWA3_200Rnd_556x45',8]; //MG4
     Vehicle player addmagazinecargoglobal ['BWA3_30Rnd_556x45_G36_AP',30];// G36, G38
     Vehicle player addmagazinecargoglobal ['BWA3_10Rnd_762x51_G28_AP',10]; //G28
-    //Vehicle Player addmagazinecargoglobal ['hlc_5rnd_300WM_mk248_AWM',10]; // G 22
+    Vehicle Player addmagazinecargoglobal ['hlc_5rnd_300WM_mk248_AWM',10]; // G 22
     Vehicle player addBackpackCargoGlobal ["Redd_Milan_Static_Bag", 1];
     Vehicle player addBackpackCargoGlobal ["Redd_Milan_Static_Tripod", 1];
     Vehicle Player addItemCargoGlobal ["Medikit", 1];
