@@ -61,7 +61,7 @@ S4_fnc_kfzbeladung_Standart = {
             _x addItemCargoGlobal ["ACE_bloodIV", 5];
       } forEach everyBackpack Vehicle Player;
     };
-    Vehicle player addmagazinecargoglobal ['hlc_100Rnd_762x51_M_MG3',8]; //MG3
+    Vehicle player addmagazinecargoglobal ['BWA3_120Rnd_762x51_Tracer',8]; //MG3
     Vehicle player addmagazinecargoglobal ['BWA3_200Rnd_556x45',8]; //MG4
     Vehicle player addmagazinecargoglobal ['BWA3_30Rnd_556x45_G36_AP',30];// G36, G38
     Vehicle player addmagazinecargoglobal ['BWA3_10Rnd_762x51_G28_AP',10]; //G28
@@ -107,7 +107,7 @@ S4_fnc_kfzbeladung_schweregruppe = {
   	vehicle player addbackpackcargoglobal ['B_HMG_01_support_F',1];
   	vehicle player addbackpackcargoglobal ['B_HMG_01_support_high_F',1];
     vehicle player addweaponcargoglobal ['BWA3_PzF3_Tandem_Loaded',2];
-    Vehicle player addmagazinecargoglobal ['hlc_100Rnd_762x51_M_MG3',8]; //MG3
+    Vehicle player addmagazinecargoglobal ['BWA3_120Rnd_762x51_Tracer',8]; //MG3
     Vehicle player addmagazinecargoglobal ['BWA3_200Rnd_556x45',8]; //MG4
     Vehicle player addmagazinecargoglobal ['BWA3_30Rnd_556x45_G36_AP',30];// G36, G38
     Vehicle player addmagazinecargoglobal ['BWA3_10Rnd_762x51_G28_AP',10]; //G28
@@ -154,7 +154,7 @@ S4_fnc_kfzbeladung_moerser = {
     Vehicle player addbackpackcargoglobal ['B_Mortar_01_support_F',2];
     Vehicle player addbackpackcargoglobal ['B_Mortar_01_weapon_F',2];
     Vehicle player addweaponcargoglobal ['BWA3_PzF3_Tandem_Loaded',2];
-    Vehicle player addmagazinecargoglobal ['hlc_100Rnd_762x51_M_MG3',8]; //MG3
+    Vehicle player addmagazinecargoglobal ['BWA3_120Rnd_762x51_Tracer',8]; //MG3
     Vehicle player addmagazinecargoglobal ['BWA3_200Rnd_556x45',8]; //MG4
     Vehicle player addmagazinecargoglobal ['BWA3_30Rnd_556x45_G36_AP',30];// G36, G38
     Vehicle player addmagazinecargoglobal ['BWA3_10Rnd_762x51_G28_AP',10]; //G28
